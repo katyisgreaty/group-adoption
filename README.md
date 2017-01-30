@@ -23,6 +23,16 @@ _Pet adoption webpage that shows pets available for adoption, a form to add a ne
 
 _Matt and Katy notes for Elise and Caitlin:_
   -div classes and ids etc
+  <label for="pet-info">Pet Name:</label>
+  <input id="name" type="text">
+  <label for="pet-info">Breed:</label>
+  <input id="breed" type="text">
+  <label for="pet-info">Age:</label>
+  <input id="age" type="text">
+  <label for="pet-info">Gender:</label>
+  <input id="gender" type="text">
+  <label for="pet-info">About:</label>
+  <input id="about" type="text">
 
 
 _Caitlin and Elise notes for Matt and Katy:_

@@ -1,55 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <meta charset="utf-8">
-    <title>Come and Pet It</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">Panel Content</div>
-              <div class="panel-footer">Panel Footer</div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">Panel Content</div>
-              <div class="panel-footer">Panel Footer</div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">Panel Content</div>
-              <div class="panel-footer">Panel Footer</div>
-            </div>
-          </div>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Woof Woof Pet Adoption</title>
+</head>
+<body>
+  <div class="container mainPage">
+    <h1 class = "jumbotron">Woof Woof Pet Adoption</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Fluffy</div>
+          <div class="panel-body petpic"><img src="https://s-media-cache-ak0.pinimg.com/736x/b7/1a/72/b71a72d856499c2320e3d9504b749fde.jpg" alt="" /></div>
+        </div>
       </div>
-      <div class="row">
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">Panel Content</div>
-              <div class="panel-footer">Panel Footer</div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">Panel Content</div>
-              <div class="panel-footer">Panel Footer</div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">Panel Content</div>
-              <div class="panel-footer">Panel Footer</div>
-            </div>
-          </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Harold</div>
+          <div class="panel-body">Panel Content</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Opie</div>
+          <div class="panel-body">Panel Content</div>
+        </div>
       </div>
     </div>
-  </body>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Chief</div>
+          <div class="panel-body">Panel Content</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Oberon</div>
+          <div class="panel-body">Panel Content</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Lady</div>
+          <div class="panel-body">Panel Content</div>
+        </div>
+      </div>
+    </div>
+    <div class="row added-pets">
+
+    </div>
+  </div>
+  <div class="container form">
+    <h2>Add a new dog to our list of available pets for adoption:</h2>
+    <form id="pet-form">
+      <label for="pet-info">Pet Name:</label>
+      <input id="name" type="text"><br>
+      <label for="pet-info">Breed:</label>
+      <input id="breed" type="text"><br>
+      <label for="pet-info">Age:</label>
+      <input id="age" type="number"><br>
+      <div class="radio">
+        <h5 class = "gender">Gender:</h5>
+        <label>
+          <input type="radio" name="gender" value="male">Male
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="gender" value="female">
+          Female
+        </label>
+      </div>
+      <label for="pet-info">About:</label>
+      <input id="about" type="text"><br>
+      <label for="pet-info">Attach an image url:</label>
+      <input id="image" type="text"><br>
+
+      <button type="submit" class="btn">Add to adoptable list!</button>
+    </form>
+  </div>
+</body>
 </html>
