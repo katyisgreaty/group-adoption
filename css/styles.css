@@ -1,0 +1,13 @@
+.petpic {
+  max-width: 90%;
+}
+
+img {
+  max-width: 98%;
+  display: block;
+  margin-left: 20px;
+}
+
+input {
+  width: 100%;
+}
