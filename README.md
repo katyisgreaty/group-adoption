@@ -34,15 +34,6 @@ _Matt and Katy notes for Elise and Caitlin:_
   <label for="pet-info">About:</label>
   <input id="about" type="text">
 
-
-_Caitlin and Elise notes for Matt and Katy:_
-  -?
-
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
 ## Support and contact details
 
 _For questions, contact Katy, Matt, Elise or Caitlin._
