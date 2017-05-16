@@ -2,7 +2,7 @@
 
 #### _Pet adoption website, 1.30.17_
 
-#### By _**Katy, Matt, Elise and Caitlin**_
+#### By _**Katy Daviscourt, Matt Caswell, Elise St. Hilaire and Caitlin Hines**_
 
 ## Description
 
